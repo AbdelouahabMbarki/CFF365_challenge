@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "montserrat",sans-serif;
+    background: linear-gradient(125deg,#6a89cc,#b8e994);
+}
+.container {
+text-align: center;
+color: #343434
+}
+.container h2{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(bg.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.container a{
+  text-decoration: none;
+  background: #e55039aa;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.container a:hover{
+    background: #e55039;
+  }
+  
